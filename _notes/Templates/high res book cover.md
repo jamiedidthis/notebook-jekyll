@@ -1,3 +1,6 @@
+---
+---
+
 <%* 
 var file = app.workspace.getActiveFile()
 var t = await app.vault.read(file)

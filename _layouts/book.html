@@ -12,6 +12,10 @@ layout: default
   </div>
 
   <div id="book-container">
+    <flex grid> 
+      {% if book.cover == true %}
+      <img class="book-full-img" src="{{ site.url }}/images/books/{{ book.slug }}.jpg" alt="{{ book.title }}" />
+      {% endif %}
     <content>
       {{ content }}
     </content>
